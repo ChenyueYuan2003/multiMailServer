@@ -28,7 +28,7 @@ def index():
         subject = request.form.get('subject')
         content = request.form.get('content')
 
-        if "@" not in sender or receiver:
+        if "@" not in sender or "@" not in receiver:
             return render_template('input_error.html')
 
         # print(mail_type, sender, password, receiver, subject, content)
