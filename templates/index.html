@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多种邮箱邮件发送</title>
+</head>
+<body>
+<form action="" method="post">
+
+    <h3>请选择邮箱类型</h3>
+    <input type="radio" name="mailtype" value="qq">QQ邮箱<br>
+    <input type="radio" name="mailtype" value="163">163邮箱<br>
+    <input type="radio" name="mailtype" value="126">126邮箱<br>
+    <h4>登录</h4>
+
+    <label for="sender">发件人：</label>
+    <input type="text" name="sender" id="sender" placeholder="请输入您的邮件地址"><br><br>
+
+    <label for="password">&nbsp;&nbsp;密码：&nbsp;&nbsp;</label>
+    <input type="text" name="password" id="password" placeholder="请输入您的授权码"><br><br>
+
+    <h4>写邮件</h4>
+
+    <label for="receiver">收件人：</label>
+    <input type="text" name="receiver" id="receiver" placeholder="请输入收件人地址"><br><br>
+
+    <label for="subject">&nbsp;&nbsp;主题：&nbsp;&nbsp;</label>
+    <input type="text" name="subject" id="subject" placeholder="请输入邮件主题"><br><br>
+
+    <label for="content">&nbsp;&nbsp;正文：&nbsp;&nbsp;</label>
+    <input type="text" name="content" id="content" placeholder="请输入邮件内容" size="50"><br><br>
+
+ <input type="submit" value="发送">
+
+</form>
+
+</body>
+</html>
